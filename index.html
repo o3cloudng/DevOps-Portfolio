@@ -212,10 +212,24 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/f/xoqzklal">
+            <!-- <form method="POST" action="https://formspree.io/f/xoqzklal">
                 <input type="hidden" name="_subject" value="Contact from my DevOps Portfolio" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form> -->
+            <form action="https://formspree.io/f/xoqzklal" method="POST">
+                <input type="hidden" name="_subject" value="Contact from my DevOps Portfolio" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
+                <!-- your other form fields go here -->
                 <button type="submit">Send</button>
             </form>
         </div>
