@@ -1,347 +1,730 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DevOps Portfolio - Olumide Oderinde</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+  <title>Olumide (DevSecOps)</title>
+  <!-- Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Boootstrap Portfolio/Resume Theme for Developers" />
+  <meta name="author" content="Xiaoying Riley at 3rd Wave Media" />
+  <link rel="shortcut icon" href="favicon.ico" />
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic" rel="stylesheet"
+    type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+
+  <!-- FontAwesome JS -->
+  <script defer src="assets/fontawesome/js/all.js"></script>
+
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
+
+  <!-- github calendar css -->
+  <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar-responsive.css" />
+  <!-- github activity css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css" />
+  <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css" />
+
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/styles.css" />
 </head>
 
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Olumide Oderinde</h1>
-            <h2>DevOps Engineer (Software Engineer)</h2>
-            <a href="https://docs.google.com/document/d/11mUEFDNApcrec4gkoz6186k7zY3jpEIq/edit?usp=share_link&ouid=106116018620736622460&rtpof=true&sd=true" target="_blank" class="btn-rounded-white">View Resume</a>
-        </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        I am a dynamic DevOps Engineer, a Software Engineer, and an aspiring Site Reliability Engineer (SRE).
-
-I have over 8+ years in the software development industry and 2+ of technical experience and expertise in building and managing AWS infrastructure & services, microservices-oriented architecture, and implementing CI/CD pipelines to automate integration, code building, testing, and deployment processes. I have an excellent reputation for solving problems, effective collaboration, improving customer satisfaction, and driving overall operational efficiency.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image p-4" style="padding: 30px 0px;">
-                        <img src="https://user-images.githubusercontent.com/43399466/228301952-abc02ca2-9942-4a67-8293-f76647b6f9d8.png" width="300px" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Complete CI/CD Projects</h3>
-                        <p>
-                            Deployed Jenkins on an EC2 instance using docker pipeline for Docker agent, deployed Sonarqube on same EC2 instance for code quality testing,
-                            Implemented GitOps by deployin ArgoCD on Kubernetes cluster with webhooks to trigger build on manifest file changes  
-                        </p>
-                        <a href="https://github.com/o3cloudng/complete-Jenkins-pipeline">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <div class="project shadow-large">
-                    <div class="project-image p-4" style="padding: 30px 0px;">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Gf0CobrIQFNWppyEp8VG5KSscPDcqudQeA&usqp=CAU" width="300px" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Deployed Sonarqube on EC2 instance using Terraform</h3>
-                        <p>
-                            Terraform is an infrastructure as code (IaC) tool used for building cloud infrastructure, while Jenkins is a continuous integration tool,
-                    The project automates the provisioning of VPC, Security group, Loadbalncer etc and automatically deploys Sonarqube for code quality testing and can be integarted with jenkins for continuos testing. 
-                        </p>
-                        <a href="https://github.com/o3cloudng/Sonarqube-with-Terraform-on-AWS">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*3YmqBRgJOuBHcFm2Y356hw.png"  width="300px" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Deployed Jenkins on EC2 instance using Terraform</h3>
-                        <p>
-                            Terraform is an infrastructure as code (IaC) tool used for building cloud infrastructure, while Jenkins is a continuous integration tool,
-                    The project automates the provisioning of VPC, Security group, Loadbalncer etc and automatically deploys Jenkins therby completing CI 
-                    ready for ci pipeline using Jenkinsfile 
-                        </p>
-                        <a href="https://github.com/o3cloudng/install-jenkins-with-terraform">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="data:image/png;base64,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" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>PayMyBills.ng</h3>
-                        <p>
-                            * Develope PayMyBills.ng Event services with subscription from WhatsApp automated chat bots
-                            * Conceptualized and developed disaster recovery systems for client application servers
-                        </p>
-                        <a href="https://events.paymybills.ng">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="https://media.premiumtimesng.com/wp-content/files/2020/06/maxair.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Plane Science Project</h3>
-                        <p>
-                            Aircraft accident investigation reporting system to manage the investigation cycle of all inccidents in the avaition industry
-                            and pubic publishing for the world after a rigorous segmented checks and approvals.
-                            This will help to promote safety and proper regulations in the aviation industry.                      
-                        </p>
-                        <a href="http://argue.synercomgroup.net">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>Ladoke Akintola University of Technology</h3>
-            <span class="education-date">June 2001 - Sept 2007</span>
-            <h4>Bachelor of Technology in Electronics & Electrical Engineering</h4>
-            <p>
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <!-- <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
+  <!-- ******HEADER****** -->
+  <header class="header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col">
+          <img class="profile-image img-fluid float-start rounded-circle"
+            src="assets/images/olumide-oderinde_512x512.png" alt="profile image" width="180px" height="180px" />
+          <div class="profile-content">
+            <h1 class="name">Olumide Oderinde</h1>
+            <h2 class="desc">DevSecOps | AWS Cloud Engineer</h2>
+            <ul class="social list-inline">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/purposeborn"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://linkedin.com/in/olumide-oderinde"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/o3cloudng"><i class="fab fa-github-alt"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-stack-overflow"></i></a>
+              </li>
+              <li class="list-inline-item last-item">
+                <a href="#"><i class="fab fa-codepen"></i></a>
+              </li>
             </ul>
-        </div> -->
-        <!-- End .education-block -->
+          </div>
+          <!--//profile-->
+        </div>
+        <!--//col-->
+        <div class="col-12 col-md-auto">
+          <div class="dark-mode-switch d-flex">
+            <div class="form-check form-switch mx-auto mx-md-0">
+              <input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
+              <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+            </div>
+          </div>
+          <!--//dark-mode-switch-->
+          <a class="btn btn-cta-primary" href="#" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
+        </div>
+        <!--//col-->
+      </div>
+      <!--//row-->
     </div>
-    <!-- End #education -->
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="April 2020 till date">
-                <h3>Freelance</h3>
-                <h4>DevOps & Python Web Developer</h4>
-                <p>
-                    Projects:
-                    * Automated real-time attendance and vehicle recognition application using IoT
-                    * Built the backend APIs for Plain Science AIB projects.
-                    * Designed and built Bookstore for bishopkunleamoo.com
-                    * Design website for LFCObantoko.com
-                    * Banking process automation for SWIFT services at BOI, Access Bank, etc
-                    * Waste Management design for vendors and Lagos state residents
+    <!--//container-->
+  </header>
+  <!--//header-->
+
+  <div class="container sections-wrapper py-5">
+    <div class="row">
+      <div class="primary col-lg-8 col-12">
+        <section class="about section">
+          <div class="section-inner shadow-sm rounded">
+            <h2 class="heading">Want to know more about me?</h2>
+            <div class="content">
+              <p>
+                I am a dynamic DevOps (Security) Engineer, a Software Engineer, and an
+                aspiring Site Reliability Engineer (SRE). I have over 8+ years
+                in the software development industry and 3+ of technical
+                experience and expertise in building and managing AWS
+                infrastructure & services, microservices-oriented
+                architecture, and implementing CI/CD pipelines to automate
+                integration, code building, testing, and deployment processes.
+                I have an excellent reputation for solving problems, effective
+                collaboration, improving customer satisfaction, and driving
+                overall operational efficiency.
+              </p>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </section>
+        <!--//section-->
+
+        <section class="latest section">
+          <div class="section-inner shadow-sm rounded">
+            <h2 class="heading">Latest Projects</h2>
+            <div class="content">
+              <div class="item featured text-center">
+                <div class="featured-image has-ribbon">
+                  <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/"
+                    target="_blank">
+                    <img class="img-fluid project-image rounded shadow-sm"
+                      src="assets/images/DEVSECOPS-CICD-PIPELINE.png" alt="DEVSECOPS CICD PIPELINE" />
+                  </a>
+                  <div class="ribbon">
+                    <div class="text">New</div>
+                  </div>
+                </div>
+
+                <h3 class="title mb-3">
+                  <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/"
+                    target="_blank"> DEVSECOPS CICD PIPELINE USING JENKINS</a>
+                </h3>
+
+                <div class="desc text-start">
+                  <p>
+                    In this project, I deployed a CICD pipeline to continuously build, text, code assess, deploy with
+                    alerts to developers and team members.
+                    To build secure application for production grade deployments
+                  </p>
+                </div>
+                <!--//desc-->
+                <a class="btn btn-cta-secondary" href="#" target="_blank"><i class="fas fa-thumbs-up"></i> Back my
+                  project</a>
+              </div>
+              <!--//item-->
+              <hr class="divider" />
+              <div class="item row">
+                <a class="col-md-4 col-12" href="#" target="_blank">
+                  <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-1.png"
+                    alt="project name" />
+                </a>
+                <div class="desc col-md-8 col-12">
+                  <h3 class="title">
+                    <a href="#" target="_blank">Jenkins Server - Deploy to AWS EC2 Using Terraform </a>
+                  </h3>
+                  <p class="mb-2">
+                    Deployed Jenkins on an EC2 instance using Docker agent as nodes, deployed Sonarqube on
+                    same EC2 instance for Static Code Analysis, Implemented GitOps by deployin ArgoCD on Kubernetes
+                    cluster with webhooks to trigger build on manifest file changes
+                  </p>
+                  <p>
+                    <a class="more-link" href="https://github.com/o3cloudng/Sonarqube-with-Terraform-on-AWS" target="_blank"><i class="fas fa-external-link-alt"></i>Find out
+                      more</a>
+                  </p>
+                </div>
+                <!--//desc-->
+              </div>
+              <!--//item-->
+
+              <div class="item row">
+                <a class="col-md-4 col-12" href="#" target="_blank">
+                  <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-2.png"
+                    alt="project name" />
+                </a>
+                <div class="desc col-md-8 col-12">
+                  <h3 class="title">
+                    <a href="#" target="_blank">Deployed Sonarqube on EC2 instance using Terraform
+                    </a>
+                  </h3>
+                  <p class="mb-2">
+                    Terraform is an infrastructure as code (IaC) tool used for building cloud infrastructure, while Jenkins is a continuous integration tool, The project automates the provisioning of VPC, Security group, Loadbalncer etc and automatically deploys Sonarqube for code quality testing and can be integarted with jenkins for continuos testing.
+                  </p>
+                  <p>
+                    <a class="more-link" href="https://github.com/o3cloudng/Sonarqube-with-Terraform-on-AWS" target="_blank"><i class="fas fa-external-link-alt"></i>Find out
+                      more</a>
+                  </p>
+                </div>
+                <!--//desc-->
+              </div>
+              <!--//item-->
+
+              <div class="item row">
+                <a class="col-md-4 col-12" href="#" target="_blank">
+                  <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-3.png"
+                    alt="project name" />
+                </a>
+                <div class="desc col-md-8 col-12">
+                  <h3 class="title">
+                    <a href="#" target="_blank">Deployed Jenkins on EC2 instance using Terraform</a>
+                  </h3>
+                  <p class="mb-2">
+                    Terraform is an infrastructure as code (IaC) tool used for building cloud infrastructure, while Jenkins is a continuous integration tool, The project automates the provisioning of VPC, Security group, Loadbalncer etc and automatically deploys Jenkins therby completing CI ready for ci pipeline using Jenkinsfile
+                  </p>
+                  <p>
+                    <a class="more-link" href="https://github.com/o3cloudng/install-jenkins-with-terraform" target="_blank"><i class="fas fa-external-link-alt"></i>Find out
+                      more</a>
+                  </p>
+                </div>
+                <!--//desc-->
+              </div>
+              <!--//item-->
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </section>
+        <!--//section-->
+
+        <section class="projects section">
+          <div class="section-inner shadow-sm rounded">
+            <h2 class="heading">Other Projects</h2>
+            <div class="content">
+              <div class="item">
+                <h3 class="title">
+                  <a href="#" target="_blank">PayMyBills.ng</a>
+                  <!-- <span class="badge badge-theme">Free</span> -->
+                </h3>
+                <p class="summary">
+                  Develope PayMyBills.ng Event services with subscription from WhatsApp automated chat bots * Conceptualized and developed disaster recovery systems for client application servers
                 </p>
-            </div>
-
-            <div data-date="January 2019 – March 2020 ">
-                <h3>TM30 Global Ltd</h3>
-                <h4>Software Engineer</h4>
                 <p>
-                    Responsibilities:
-                    * Monitor, maintain and managed all mobile application VAS service for clients
-                    * Develope PayMyBills.ng Event service with subscription from WhatsApp automated chat bots
-                    * Conceptualized and developed disaster recovery systems for client application servers
-                    * Deployed web hosting server for client hosting for TM30
-                    * I also helped in the development of VAS SaaS using microservices architecture                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Firstastoria</h3>
-                <h4>Head Tech</h4>
-                <p>
-                    Managing VAS servers and collaborating with Mobile Network Operators on mobile services.
-                    Serving tens of thousands of mobile service subscribers
-                    Content development for mutliple services.
-                    Website development and monitoring 
+                  <a class="more-link" href="https://events.paymybills.ng/" target="_blank"><i class="fas fa-external-link-alt"></i>View Project</a>
                 </p>
+              </div>
+              <!--//item-->
+              <div class="item">
+                <h3 class="title">
+                  <a href="#" target="_blank">Plane Science Project</a>
+                  <!-- <span class="badge badge-theme">Free</span> -->
+                </h3>
+                <p class="summary">
+                  Aircraft accident investigation reporting system to manage the investigation cycle of all inccidents in the avaition industry and pubic publishing for the world after a rigorous segmented checks and approvals. This will help to promote safety and proper regulations in the aviation industry.
+                </p>
+                <p>
+                  <a class="more-link" href="http://argue.synercomgroup.net/" target="_blank"><i class="fas fa-external-link-alt"></i>View Project</a>
+                </p>
+              </div>
+              <!--//item-->
+              <!--//item-->
+              <div class="item">
+                <h3 class="title">
+                  <a href="#" target="_blank">HICMicroLab RFID Project</a>
+                  <!-- <span class="badge badge-theme">Free</span> -->
+                </h3>
+                <p class="summary">
+                  Student attendance tracking system. This is a IoT application to automated tracking, access and realtme notification of RFID signals.
+                </p>
+                <p>
+                  <a class="more-link" href="http://argue.synercomgroup.net/" target="_blank"><i class="fas fa-external-link-alt"></i>View Project</a>
+                </p>
+              </div>
+              <!--//item-->
+
+              <a class="btn btn-cta-secondary" href="https://github.com/o3cloudng">More on GitHub <i class="fas fa-chevron-right pt-1"></i></a>
             </div>
-        </div>
-    </div>
-    <!-- End #experience -->
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </section>
+        <!--//section-->
 
+        <section class="experience section">
+          <div class="section-inner shadow-sm rounded">
+            <h2 class="heading">Work Experience</h2>
+            <div class="content">
+              <div class="item">
+                <h3 class="title">
+                  Co-Founder & Lead Developer -
+                  <span class="place"><a href="#">Startup Hub</a></span>
+                  <span class="year">(2022 - Present)</span>
+                </h3>
+                <p>
+                  Aenean leo ligula, porttitor eu, consequat vitae, eleifend
+                  ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
+                  feugiat a, tellus. Phasellus viverra nulla ut metus varius
+                  laoreet. Donec vitae sapien ut libero venenatis faucibus.
+                  Nullam quis ante. Etiam sit amet orci eget eros faucibus
+                  tincidunt.
+                </p>
+              </div>
+              <!--//item-->
+              <div class="item">
+                <h3 class="title">
+                  Software Engineer -
+                  <span class="place"><a href="#">Google</a></span>
+                  <span class="year">(2019 - 2022)</span>
+                </h3>
+                <p>
+                  Vivamus a tortor eu turpis pharetra consequat quis non
+                  metus. Aliquam aliquam, orci eu suscipit pellentesque,
+                  mauris dui tincidunt enim. Sed fringilla mauris sit amet
+                  nibh. Donec sodales sagittis magna.
+                </p>
+              </div>
+              <!--//item-->
 
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>PHP</li>
-            <li>React</li>
-            <li>Bash</li>
-            <li>Docker</li>
-            <li>Jenkins</li>
-            <li>Github Actions</li>
-            <li>Terraform</li>
-            <li>Ansible</li>
-            <li>Selenium</li>
-            <li>SolarQube</li>
-            <li>JavaScript</li>
-            <li>Django</li>
-            <li>Laravel</li>
-            <li>EFK Stack</li>
-            <li>Prometheus & Grafana</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Kubernetes</li>
-            <li>Argo CD</li>
-            <li>Kubectl</li>
-            <li>Helm</li>
-            <li>AWS</li>
-
-        </ul>
-    </div>
-    <!-- End #skills -->
- 
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <!-- <form method="POST" action="https://formspree.io/f/xoqzklal">
-                <input type="hidden" name="_subject" value="Contact from my DevOps Portfolio" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form> -->
-            <form action="https://formspree.io/f/xoqzklal" method="POST">
-                <input type="hidden" name="_subject" value="Contact from my DevOps Portfolio" />
-                <label>
-                    <input type="email" name="email" placeholder="Your email">
-                </label>
-                <label>
-                    <textarea name="message" placeholder="Message""></textarea>
-                </label>
-                <!-- your other form fields go here -->
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; <span id="current-year">2023</span> Olumide Oderinde
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/o3cloudng/DevOps-Projects" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <!-- <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a> -->
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/in/olumide-oderinde" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <!-- <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a> -->
-                        </li>
-                        <li>
-                            <!-- <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> -->
-                        </li>
-                        <!-- <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li> -->
-                    </ul>
-                </div>
+              <div class="item">
+                <h3 class="title">
+                  Software Engineer -
+                  <span class="place"><a href="#">eBay</a></span>
+                  <span class="year">(2018 - 2019)</span>
+                </h3>
+                <p>
+                  Maecenas tempus, tellus eget condimentum rhoncus, sem quam
+                  semper libero, sit amet adipiscing sem neque sed ipsum.
+                </p>
+              </div>
+              <!--//item-->
             </div>
-        </div>
-    </footer>
-    <!-- End footer -->
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </section>
+        <!--//section-->
+        <!-- <section class="github section">
+          <div class="section-inner shadow-sm rounded">
+            <h2 class="heading">My GitHub</h2>
+            <p>
+              You can embed your GitHub contribution graph calendar using
+              IonicaBizau's
+              <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a>
+              widget.
+            </p>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+            <div id="github-graph" class="github-graph"></div>
+
+            <p>
+              You can also embed your GitHub activities using Casey
+              Scarborough's
+              <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a>
+              widget.
+            </p>
+
+            <div id="ghfeed" class="ghfeed"></div>
+          </div>
+        </section> -->
+        <!--//section-->
+      </div>
+      <!--//primary-->
+      <div class="secondary col-lg-4 col-12">
+        <aside class="info aside section">
+          <div class="section-inner shadow-sm rounded">
+            <h2 class="heading sr-only">Basic Information</h2>
+            <div class="content">
+              <ul class="list-unstyled">
+                <li>
+                  <i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Abeokuta, Nigeria
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">o3cloudng@gmail.com</a>
+                </li>
+                <li>
+                  <i class="fas fa-link"></i><span class="sr-only">Website:</span><a
+                    href="https://o3cloudng.github.io/DevOps-portfolio/">Portfolio website</a>
+                </li>
+              </ul>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </aside>
+        <!--//aside-->
+
+        <aside class="skills aside section">
+          <div class="section-inner shadow-sm rounded">
+            <h2 class="heading">Skills</h2>
+            <div class="content">
+              <p class="intro">
+                Some of my important skillset are listed
+              </p>
+
+              <div class="skillset">
+                <div class="item">
+                  <h3 class="level-title">
+                    Amazon Web Services<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left"
+                      title="You can use the tooltip to explain more about your skill level..."><i
+                        class="fas fa-info-circle"></i>Expert</span>
+                  </h3>
+
+                  <div class="level-bar progress">
+                    <div class="progress-bar level-bar-inner" role="progressbar" style="width: 96%" aria-valuenow="96"
+                      aria-valuemin="0" aria-valuemax="96"></div>
+                  </div>
+                  <!--//level-bar-->
+                </div>
+                <!--//item-->
+                <div class="skillset">
+                  <div class="item">
+                    <h3 class="level-title">
+                      Python &amp; Django<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left"
+                        title="You can use the tooltip to explain more about your skill level..."><i
+                          class="fas fa-info-circle"></i>Expert</span>
+                    </h3>
+
+                    <div class="level-bar progress">
+                      <div class="progress-bar level-bar-inner" role="progressbar" style="width: 96%" aria-valuenow="96"
+                        aria-valuemin="0" aria-valuemax="96"></div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+
+                  <div class="item">
+                    <h3 class="level-title">
+                      Docker & Kubernetes<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left"
+                        title="You can use the tooltip to explain more about your skill level..."><i
+                          class="fas fa-info-circle"></i>Pro</span>
+                    </h3>
+                    <div class="level-bar progress">
+                      <div class="progress-bar level-bar-inner" role="progressbar" style="width: 80%" aria-valuenow="94"
+                        aria-valuemin="0" aria-valuemax="94"></div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+
+                  <div class="item">
+                    <h3 class="level-title">
+                      CICD & Security Integrations<span class="level-label" data-bs-toggle="tooltip"
+                        data-bs-placement="left"
+                        title="You can use the tooltip to explain more about your skill level..."><i
+                          class="fas fa-info-circle"></i>Experienced</span>
+                    </h3>
+                    <div class="level-bar progress">
+                      <div class="progress-bar level-bar-inner" role="progressbar" style="width: 75%" aria-valuenow="93"
+                        aria-valuemin="0" aria-valuemax="96"></div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+
+                  <div class="item">
+                    <h3 class="level-title">
+                      Linux & Bash Scripting<span class="level-label" data-bs-toggle="tooltip" data-placement="left"
+                        title="You can use the tooltip to explain more about your skill level..."><i
+                          class="fas fa-info-circle"></i>Experienced</span>
+                    </h3>
+                    <div class="level-bar progress">
+                      <div class="progress-bar level-bar-inner" role="progressbar" style="width: 70%" aria-valuenow="86"
+                        aria-valuemin="0" aria-valuemax="96"></div>
+                    </div>
+                    <!--//level-bar-->
+                  </div>
+                  <!--//item-->
+
+                  <p>
+                    <a class="more-link" href="https://github.com/o3cloudng"><i
+                        class="fas fa-external-link-alt"></i>More on GitHub</a>
+                  </p>
+                </div>
+              </div>
+              <!--//content-->
+            </div>
+            <!--//section-inner-->
+        </aside>
+        <!--//section-->
+
+        <aside class="testimonials aside section">
+          <div class="section-inner shadow-sm rounded">
+            <h2 class="heading">Testimonials</h2>
+            <div class="content">
+              <div class="item">
+                <blockquote class="quote">
+                  <p>
+                    <i class="fas fa-quote-left"></i>Olumide is an excellent
+                    software engineer and he is passionate about what he does.
+                    You can totally count on him to deliver your projects!
+                  </p>
+                </blockquote>
+                <p class="source">
+                  <span class="name">Ibrahim Ogunbayo</span><br /><span class="title">HIC MicroLab</span>
+                </p>
+              </div>
+              <!--//item-->
+
+              <p>
+                <a class="more-link" href="https://linkedin.com/in/ibrahim-ogunbayo"><i
+                    class="fas fa-external-link-alt"></i>More on Linkedin</a>
+              </p>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </aside>
+        <!--//section-->
+
+        <aside class="education aside section">
+          <div class="section-inner shadow-sm rounded">
+            <h2 class="heading">Education</h2>
+            <div class="content">
+              <div class="item">
+                <h3 class="title">
+                  <i class="fas fa-graduation-cap"></i> Electronics & Electrical Engineering
+                </h3>
+                <h4 class="university">
+                  Ladoke Akintola University of Technology
+                  <span class="year">(2001-2006/7)</span>
+                </h4>
+              </div>
+              <!--//item-->
+              <div class="item">
+                <h3 class="title">
+                  <i class="fas fa-graduation-cap"></i> DevOps & Kubernetes
+                </h3>
+                <h4 class="university">
+                  Kodekloud Academy <span class="year"> (2021)</span>
+                </h4>
+              </div>
+              <!--//item-->
+              <!--//item-->
+              <div class="item">
+                <h3 class="title">
+                  <i class="fas fa-graduation-cap"></i> Amazon Web Services
+                </h3>
+                <h4 class="university">
+                  Udemy <span class="year"> (2020)</span>
+                </h4>
+              </div>
+              <!--//item-->
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </aside>
+        <!--//section-->
+
+        <aside class="languages aside section">
+          <div class="section-inner shadow-sm rounded">
+            <h2 class="heading">Languages</h2>
+            <div class="content">
+              <ul class="list-unstyled">
+                <li class="item">
+                  <span class="title"><strong>English:</strong></span>
+                  <span class="level">Professional Proficiency <br class="visible-xs" /><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                  </span>
+                </li>
+                <!--//item-->
+                <li class="item">
+                  <span class="title"><strong>Yoruba:</strong></span>
+                  <span class="level">Native
+                    <br class="visible-sm visible-xs" /><i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i> <i class="fas fa-star"></i></i></span>
+                </li>
+                <!--//item-->
+              </ul>
+            </div>
+            <!--//content-->
+          </div>
+          <!--//section-inner-->
+        </aside>
+        <!--//section-->
+
+        <!-- <aside class="blog aside section">
+          <div class="section-inner shadow-sm rounded">
+            <h2 class="heading">Latest Blog Posts</h2>
+            <p>
+              You can use Sascha Depold's
+              <a href="https://github.com/sdepold/jquery-rss" target="_blank">Vanilla RSS plugin</a>
+              to pull in your blog post feeds.
+            </p>
+            <div id="rss-feeds" class="content"></div>
+          </div>
+        </aside> -->
+        <!--//section-->
+
+        <!-- <aside class="list music aside section">
+          <div class="section-inner shadow-sm rounded">
+            <h2 class="heading">Favourite coding music</h2>
+            <div class="content">
+              <ul class="list-unstyled">
+                <li>
+                  <i class="fas fa-headphones"></i>
+                  <a href="#">Etiam hendrerit urna nunc</a>
+                </li>
+                <li>
+                  <i class="fas fa-headphones"></i>
+                  <a href="#">Ut sollicitudin in mauris non auctor</a>
+                </li>
+                <li>
+                  <i class="fas fa-headphones"></i>
+                  <a href="#">Etiam hendrerit urna nunc</a>
+                </li>
+                <li>
+                  <i class="fas fa-headphones"></i>
+                  <a href="#">Duis et felis bibendum</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </aside> -->
+        <!--//section-->
+
+        <!-- <aside class="list conferences aside section">
+          <div class="section-inner shadow-sm rounded">
+            <h2 class="heading">Conferences</h2>
+            <div class="content">
+              <ul class="list-unstyled">
+                <li>
+                  <i class="far fa-calendar-alt"></i>
+                  <a href="#" target="_blank">WWDC 2030</a> (San Francisco)
+                </li>
+                <li>
+                  <i class="far fa-calendar-alt"></i>
+                  <a href="#">Hive</a> (Seattle)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </aside> -->
+        <!--//section-->
+
+        <!-- <aside class="credits aside section">
+          <div class="section-inner shadow-sm rounded">
+            <h2 class="heading">Credits</h2>
+            <div class="content">
+              <ul class="list-unstyled pb-2">
+                <li>
+                  <a href="https://getbootstrap.com/" target="_blank"><i
+                      class="fas fa-external-link-alt"></i>Bootstrap</a>
+                </li>
+                <li>
+                  <a href="https://fortawesome.github.io/Font-Awesome/" target="_blank"><i
+                      class="fas fa-external-link-alt"></i>FontAwesome</a>
+                </li>
+                <li>
+                  <a href="https://github.com/IonicaBizau/github-calendar" target="_blank"><i
+                      class="fas fa-external-link-alt"></i>GitHub Calendar
+                    Plugin</a>
+                </li>
+
+                <li>
+                  <a href="https://caseyscarborough.com/projects/github-activity/" target="_blank"><i
+                      class="fas fa-external-link-alt"></i>GitHub Activity
+                    Stream</a>
+                </li>
+
+                <li>
+                  <a href="https://github.com/sdepold/vanilla-rss" target="_blank"><i
+                      class="fas fa-external-link-alt"></i>Vanilla RSS</a>
+                </li>
+                <li>
+                  <a href="https://github.com/coliff/dark-mode-switch"><i class="fas fa-external-link-alt"></i>Dark Mode
+                    Switch</a>
+                </li>
+              </ul>
+
+              <hr />
+
+              <p class="pt-2">
+                This Boootstrap portfolio template is handcrafted by UX
+                designer
+                <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a>
+                at
+                <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a>
+                for developers and is <strong>FREE</strong> as long as you
+                keep the footer attribution link.
+              </p>
+              <p>
+                If you’d like to
+                <strong>use this template without the attribution link</strong>, you can
+                <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/"
+                  target="_blank">buy the commercial license</a>.
+              </p>
+
+              <a class="btn btn-cta-primary btn-download"
+                href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/"
+                target="_blank"><i class="fas fa-download"></i> I want to download</a>
+              <hr />
+              <h5 class="subheading pt-3">
+                Want more free Bootstrap themes and templates?
+              </h5>
+              <p>
+                Check out our
+                <a href="https://themes.3rdwavemedia.com/bootstrap-templates/free/">collection of free themes and
+                  templates.</a>
+              </p>
+              <p>
+                Follow
+                <a href="https://twitter.com/o3loudng" target="_blank">Xiaoying</a>
+                on twitter so you don't miss any future freebies!
+              </p>
+
+              <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/o3loudng" target="_blank"><i
+                  class="fab fa-twitter"></i> Follow on twitter</a>
+            </div>
+          </div>
+        </aside> -->
+        <!--//section-->
+      </div>
+      <!--//secondary-->
+    </div>
+    <!--//row-->
+  </div>
+  <!--//masonry-->
+
+  <!-- ******FOOTER****** -->
+  <footer class="footer">
+    <div class="container text-center">
+      <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+      <small class="copyright"> Copyright &copy;  <script>document.write(new Date().getFullYear())</script>
+    </div>
+    <!--//container-->
+  </footer>
+  <!--//footer-->
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <!-- <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> -->
+  <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script>
+  <!-- github calendar plugin -->
+  <!-- <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script> -->
+  <!-- github activity plugin -->
+  <!-- <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script> -->
+  <!-- <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script> -->
+  <!-- custom js -->
+  <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 
 </html>
