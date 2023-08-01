@@ -78,16 +78,16 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
   color: #fff;
 }
 
-a.btn-cta-secondary, .btn-cta-secondary {
-  background: #479FC8;
+a.btn-cta-secondary, a.btn-cta-secondary:visited, a.btn-cta-secondary:active, .btn-cta-secondary {
+  background: #479FC8 !important;
   border: 1px solid #479FC8;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-a.btn-cta-secondary:hover, a.btn-cta-secondary:not(:disabled):not(.disabled):active:focus, .btn-cta-secondary:hover, .btn-cta-secondary:not(:disabled):not(.disabled):active:focus {
-  background: #3893bd;
+a.btn-cta-secondary:hover, a.btn-cta-secondary:visited, a.btn-cta-secondary:not(:disabled):not(.disabled):active:focus, .btn-cta-secondary:hover, .btn-cta-secondary:not(:disabled):not(.disabled):active:focus {
+  background: #3893bd !important;
   border: 1px solid #3893bd;
   color: #fff;
   box-shadow: none;

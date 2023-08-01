@@ -130,7 +130,7 @@
 
                 <div class="desc text-start">
                   <p>
-                    This project was created to automatically tag every EC2 instances created in organization using the name of the EC2 creator ie Owner
+                    This project was created to automatically tag every EC2 instances created in organization using the name of the EC2 creator ie Owner. 
                     We used python boto3 package to interact with aws services to do this. AWS services use includes  Lambda, CloudWatch, EC2, EventBridge, CloudTrail, S3 bucket ect.
                     The our python code was deployed to lambda function. Whenver an EC2 instance is created, the EventBridge service is triggered which in turn triggers the lambda function. 
                     The function picks the authenticated user's username and re-tags the EC2 instance updating the tag to the authenticated user's username.
